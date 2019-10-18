@@ -88,7 +88,7 @@ DATABASES = {
         'USER': 'stork',  # 用户名
         'PASSWORD': 'stork',  # 密码
         'HOST': '127.0.0.1',  # IP地址
-        'PORT': '5432',  # 端口号
+        'PORT': '14103',  # 端口号
     }
 }
 
