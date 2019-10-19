@@ -31,7 +31,7 @@ from .models import User
 """
 
 
-def login(request: HttpRequest):
+def login(request:HttpRequest):
     ret_dict = {
         "code": 0
         , "count": 0
@@ -56,3 +56,27 @@ def login(request: HttpRequest):
         ret_dict["data"] = "add ok！"
 
     return HttpResponse(simplejson.dumps(ret_dict))
+
+
+def list_emp(request:HttpRequest):
+    # get all users and teturn to front
+    ret_dict = {
+        "code": 0
+        , "count": 0
+        , "data": {}
+    }
+    if request.method == "GET":
+        user_qset=User.objects.all()
+        if len(user_qset)>0:
+            ret_dict["code"] = '200'
+            ret_dict["count"] = len(user_qset)
+            ret_dict["date"]=[]
+            for user in user_qset:
+                ret_dict['date'].append(user.name)
+
+        else:
+            ret_dict["code"] = '300'
+            ret_dict["data"] = "no user"
+
+    return HttpResponse(simplejson.dumps(ret_dict))
+

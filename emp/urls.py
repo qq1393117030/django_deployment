@@ -21,5 +21,6 @@ app_name = "emp"
 urlpatterns = [
     # 自己定各种接口地址
     path('login', views.login),
+    path('list', views.list_emp),
 
 ]

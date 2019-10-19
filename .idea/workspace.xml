@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9286bc68-2bcd-49c1-96eb-7b87cba7c140" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_deploy_demo/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_deploy_demo/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/emp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/emp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,8 +158,16 @@
       <workItem from="1571322998093" duration="1392000" />
       <workItem from="1571324551766" duration="4038000" />
       <workItem from="1571361209160" duration="3596000" />
-      <workItem from="1571411689409" duration="1961000" />
+      <workItem from="1571411689409" duration="5105000" />
     </task>
+    <task id="LOCAL-00001" summary="modify database connetctions configure port-14103">
+      <created>1571413703789</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571413703789</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +183,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modify database connetctions configure port-14103" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify database connetctions configure port-14103" />
   </component>
 </project>
